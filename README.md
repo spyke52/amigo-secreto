@@ -12,8 +12,7 @@ Este proyecto permite realizar un sorteo de amigo secreto. La aplicación está 
 ## Instalación
 
  Clona este repositorio en tu máquina local usando:
-    ```bash
-    git clone https://github.com/tuusuario/amigo-secreto.git
+    ``` git clone https://github.com/tuusuario/amigo-secreto.git
     ```
 
 
