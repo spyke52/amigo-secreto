@@ -26,3 +26,15 @@ function agregarAmigo() {
         mostrarMensajeError('Este nombre ya está en la lista.'); 
         return; 
     }
+    
+    listaAmigos.push(nombreAmigo);
+
+    
+    inputAmigo.value = '';
+
+    
+    actualizarListaAmigos();
+
+    
+    verificarBotonSorteo();
+}
