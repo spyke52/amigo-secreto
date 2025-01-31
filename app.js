@@ -1,10 +1,28 @@
-// lista de nombres de los amigos
-let listaAmigos = [];
-let sorteoRealizado = false; // variable para saber si ya se realizo el sorteo
 
-// funcion para validar si es texto.
+let listaAmigos = [];
+let sorteoRealizado = false; 
+
+
 function esTextoValido(valor) {
-    // exprecion para validar texto y espacio
+    
     const regex = /^[A-Za-zÁÉÍÓÚáéíóúñÑ\s]+$/;
     return regex.test(valor);
 }
+
+function agregarAmigo() {
+    const inputAmigo = document.getElementById('amigo'); 
+    const nombreAmigo = inputAmigo.value.trim(); 
+
+    if (nombreAmigo === '') {
+        mostrarMensajeError('Por favor, ingresa un nombre válido.'); 
+        return; 
+    }
+
+    if (!esTextoValido(nombreAmigo)) {
+        mostrarMensajeError('Por favor, ingresa solo texto (letras y espacios).'); 
+        return; 
+
+    if (listaAmigos.includes(nombreAmigo)) {
+        mostrarMensajeError('Este nombre ya está en la lista.'); 
+        return; 
+    }
