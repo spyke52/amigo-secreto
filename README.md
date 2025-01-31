@@ -18,7 +18,7 @@ Este proyecto permite realizar un sorteo de amigo secreto. La aplicación está 
 
 ## Uso
 
-1. Abre el archivo `index.html` en tu navegador web.
+1. Abre el archivo `https://spyke52.github.io/amigo-secreto/ ` o `https://amigo-secreto-rho-ebon.vercel.app/ ` en tu navegador web.
 2. Ingresa los nombres de los participantes en el campo de texto y presiona el botón "Añadir".
 3. Una vez que hayas agregado todos los nombres, presiona el botón "Sortear amigo" para realizar el sorteo.
 
